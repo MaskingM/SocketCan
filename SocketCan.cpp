@@ -25,7 +25,7 @@ bool SocketCan::isExtendedFrame = false;
 static canData globalCanData = {0};
 
 
-/ java 虚拟机
+// java 虚拟机
 static JavaVM* pJVM = NULL;
 static jobject javaObj = NULL;
 // JNI 初始化
